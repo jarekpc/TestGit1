@@ -7,5 +7,6 @@ public class Main {
         System.out.format("To jest wartosc %f\n", a);
         long n = 45012;
         System.out.format("%d%n",n);
+        System.out.println("Printing even numbers: " + n);
     }
 }
