@@ -7,5 +7,7 @@ public class Main {
         System.out.format("To jest wartosc %f\n", a);
         long n = 45012;
         System.out.format("%d%n",n);
+        //zapomniałem dodac jeszcze printf
+
     }
 }
