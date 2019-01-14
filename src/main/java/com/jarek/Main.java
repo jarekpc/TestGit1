@@ -18,7 +18,7 @@ public class Main {
 
         List<Person> personList = Arrays.asList(jarek, monika,wojtek);
 //        personList.stream().forEach(System.out::println);
-        personList.stream().filter(u -> u.getAge() > 35).map(map -> map.getFirstName()).forEach(System.out::println);
+        personList.stream().filter(u -> u.getAge() > 33).map(map -> map.getFirstName()).forEach(System.out::println);
 
     }
 }
