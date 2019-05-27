@@ -21,7 +21,6 @@ public class Main {
         Person wojtek = new Person("Wojciech", "Borkała", 34);
 
         List<Person> personList = Arrays.asList(jarek, monika,wojtek);
-//        personList.stream().forEach(System.out::println);
         personList.stream().filter(u -> u.getAge() > 33).map(map -> map.getFirstName()).forEach(System.out::println);
 
     }
