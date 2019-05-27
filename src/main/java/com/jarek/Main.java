@@ -1,15 +1,17 @@
 package com.jarek;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
-import java.time.LocalDate;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Witam w metodzie Main dodano w testingu!");
-        LocalDate now = LocalDate.now();
-        System.out.printf("Dzisiaj jest %s \n", now );
+        LocalDateTime localDateTime = LocalDateTime.now();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+        System.out.printf("Godzina i data %s \n", dateTimeFormatter.format(localDateTime));
         double a = 12.2;
         System.out.format("To jest wartosc %f\n", a);
         long n = 45012;
