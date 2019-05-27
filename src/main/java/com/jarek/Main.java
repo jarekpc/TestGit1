@@ -12,8 +12,6 @@ public class Main {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
         System.out.printf("Godzina i data %s \n", dateTimeFormatter.format(localDateTime));
-        double a = 12.2;
-        System.out.format("To jest wartosc %f\n", a);
         long n = 45012;
         System.out.format("%d%n",n);
         System.out.println("Printing even numbers: " + n);
