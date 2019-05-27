@@ -2,11 +2,13 @@ package com.jarek;
 
 import java.util.Arrays;
 import java.util.List;
+import java.time.LocalDate;
 
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Witam w metodzie Main dodano w testingu!");
+	LocalDate now = LocalDate.now();
         double a = 12.2;
         System.out.format("To jest wartosc %f\n", a);
         long n = 45012;
