@@ -1,17 +1,11 @@
 package com.jarek;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        LocalDateTime localDateTime = LocalDateTime.now();
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-
-        System.out.printf("Godzina i data %s \n", dateTimeFormatter.format(localDateTime));
 
         Person jarek = new Person("Jarek", "Zyzak", 38);
         Person monika = new Person("Monika", "Zyzak", 34);
