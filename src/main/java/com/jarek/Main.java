@@ -8,7 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Witam w metodzie Main dodano w testingu!");
-	LocalDate now = LocalDate.now();
+        LocalDate now = LocalDate.now();
+        System.out.printf("Dzisiaj jest %s \n", now );
         double a = 12.2;
         System.out.format("To jest wartosc %f\n", a);
         long n = 45012;
