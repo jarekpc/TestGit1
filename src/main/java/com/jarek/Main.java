@@ -12,6 +12,9 @@ public class Main {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
         System.out.printf("Godzina i data %s \n", dateTimeFormatter.format(localDateTime));
+        long n = 45012;
+        System.out.format("%d%n",n);
+        System.out.println("Printing even numbers: " + n);
 
         Person jarek = new Person("Jarek", "Zyzak", 38);
         Person monika = new Person("Monika", "Zyzak", 34);
