@@ -8,7 +8,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println("Main");
+	LocalDateTime localDateTime = LocalDateTime.now();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
         System.out.printf("Godzina i data %s \n", dateTimeFormatter.format(localDateTime));
